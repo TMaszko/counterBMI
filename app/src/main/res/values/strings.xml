@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BMI Calculator v1.0</string>
+    <string name="weight">Weight: </string>
+    <string name="height">Height:</string>
+    <string name="count_bmi">COUNT BMI</string>
+    <string name="bmi">BMI:</string>
+    <string name="digitsPattern">0123456789.</string>
+    <string name="groupUnderweight">Niedowaga :(</string>
+    <string name="groupNormalWeight">W normie :)</string>
+    <string name="groupOverweight">Nadwaga :(</string>
+    <string name="groupObeseWeight">Otylosc !! :(</string>
+</resources>

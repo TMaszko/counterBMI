@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/labelSize"
+        tools:context="krzyzowski.tomasz.lab2.lab2.MainActivity">
+
+        <RadioGroup
+            android:id="@+id/unitSwitcher"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:checkedButton="@+id/KgAndMetersUnitBtn"
+            android:layout_marginBottom="@dimen/radioGroupMarginBottom"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="@dimen/radioBtnWidth"
+                android:layout_height="wrap_content"
+                android:text="KG/M"
+                android:id="@+id/KgAndMetersUnitBtn"
+                android:gravity="center"
+                android:button="@null"
+                android:background="@drawable/rbtn_selector"
+                android:textColor="@drawable/rbtn_text_color"
+                android:textSize="@dimen/radioBtnTextSize"/>
+            <RadioButton
+                android:id="@+id/LbAndFtUnitBtn"
+                android:layout_width="@dimen/radioBtnWidth"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rbtn_selector"
+                android:textColor="@drawable/rbtn_text_color"
+                android:gravity="center"
+                android:text="LB/FT"
+                android:button="@null"
+                android:textSize="@dimen/radioBtnTextSize"/>
+        </RadioGroup>
+        <TextView
+            android:layout_below="@id/unitSwitcher"
+            android:id="@+id/weightLabel"
+            android:textSize="@dimen/labelSize"
+            android:layout_width="@dimen/labelWidth"
+            android:layout_height="wrap_content"
+            android:text="@string/weight" />
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/weightInput"
+            android:layout_toRightOf="@id/weightLabel"
+            android:layout_alignBaseline="@id/weightLabel"
+            android:layout_marginLeft="@dimen/marginBetweenLabelAndInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/heightLabel"
+            android:layout_marginTop="@dimen/marginBetweenLabels"
+            android:textSize="@dimen/labelSize"
+            android:layout_below="@id/weightLabel"
+            android:layout_width="@dimen/labelWidth"
+            android:layout_height="wrap_content"
+            android:text="@string/height"/>
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/heightInput"
+            android:layout_below="@id/weightLabel"
+            android:layout_marginLeft="@dimen/marginBetweenLabelAndInput"
+            android:layout_alignBaseline="@id/heightLabel"
+            android:layout_toRightOf="@id/heightLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnCount"
+            android:layout_below="@id/heightLabel"
+            android:padding="@dimen/countBmiBtnPadding"
+            android:textSize="@dimen/labelSize"
+            android:layout_marginTop="@dimen/marginBetweenLabels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/count_bmi"/>
+
+        <TextView
+            android:layout_below="@id/btnCount"
+            android:id="@+id/bmiResult"
+            android:layout_marginTop="@dimen/marginBetweenLabels"
+            android:text="@string/bmi"
+            android:textSize="@dimen/bmiLabel"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@id/bmiResult"
+            android:layout_marginTop="@dimen/marginBetweenLabels"
+            android:textSize="@dimen/bmiResult"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/bmiGroup"
+            android:layout_below="@id/bmiResult"
+            android:layout_marginTop="@dimen/marginBetweenLabels"
+            android:textSize="@dimen/bmiGroup"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</ScrollView>

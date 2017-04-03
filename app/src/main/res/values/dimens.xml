@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="labelSize">20sp</dimen>
+    <dimen name="marginBetweenLabels">20dp</dimen>
+    <dimen name="marginBetweenLabelAndInput">5dp</dimen>
+    <dimen name="labelWidth">80dp</dimen>
+    <dimen name="bmiLabel">40sp</dimen>
+    <dimen name="countBmiBtnPadding">20dp</dimen>
+    <dimen name="bmiResult">60sp</dimen>
+    <dimen name="switcherMargin">15dp</dimen>
+    <dimen name="paddingBetweenTextSwitch">20dp</dimen>
+    <dimen name="radioBtnTextSize">18sp</dimen>
+    <dimen name="radioBtnWidth">150dp</dimen>
+    <dimen name="paddingRadioBtn">10dp</dimen>
+    <dimen name="radioGroupMarginBottom">20dp</dimen>
+    <dimen name="bmiGroup">30sp</dimen>
+</resources>
