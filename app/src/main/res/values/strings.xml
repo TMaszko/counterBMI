@@ -11,4 +11,7 @@
     <string name="groupObeseWeight">Otylosc !! :(</string>
     <string name="errorHeight">Incorrect height: %1$.2f Should be in range %2$.2f to %3$.2f </string>
     <string name="errorWeight">Incorrect weight: %1$.2f Should be in range %2$.2f to %3$.2f </string>
+    <string name="aboutAuthor">About author</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
 </resources>

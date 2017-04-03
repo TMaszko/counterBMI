@@ -20,14 +20,17 @@ public class CalcBMIPresenterTest {
     private static final String VALID_HEIGHT_TEXT = "1.7";
     private static final String INVALID_HEIGHT_TEXT = "0.4";
 
-    private CalcBMIContract.Presenter presenter = new CalcBMIPresenter();
+    private CalcBMIContract.Presenter presenter;
     private CalcBMIContract.View view;
+    private BMIRepository repo;
 
     @Before
     public void setup() {
         view = mock(CalcBMIContract.View.class);
-        presenter.setView(view);
-        presenter.onMetrical();
+        repo = mock(BMIRepository.class);
+        presenter = new CalcBMIPresenter(view, repo);
+        presenter.onStart();
+
     }
 
     @Test
