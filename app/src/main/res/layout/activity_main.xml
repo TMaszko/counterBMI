@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="@dimen/labelSize"
-        tools:context="krzyzowski.tomasz.lab2.lab2.MainActivity">
+        tools:context="krzyzowski.tomasz.lab2.lab2.CalcBMIActivity">
 
         <RadioGroup
             android:id="@+id/unitSwitcher"
