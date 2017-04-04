@@ -17,21 +17,21 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:orientation="horizontal"
-            android:checkedButton="@+id/KgAndMetersUnitBtn"
+            android:checkedButton="@+id/metrical_btn"
             android:layout_marginBottom="@dimen/radioGroupMarginBottom"
             android:layout_height="wrap_content">
             <RadioButton
+                android:id="@id/metrical_btn"
                 android:layout_width="@dimen/radioBtnWidth"
                 android:layout_height="wrap_content"
                 android:text="KG/M"
-                android:id="@+id/KgAndMetersUnitBtn"
                 android:gravity="center"
                 android:button="@null"
                 android:background="@drawable/rbtn_selector"
                 android:textColor="@drawable/rbtn_text_color"
                 android:textSize="@dimen/radioBtnTextSize"/>
             <RadioButton
-                android:id="@+id/LbAndFtUnitBtn"
+                android:id="@+id/imperial_btn"
                 android:layout_width="@dimen/radioBtnWidth"
                 android:layout_height="wrap_content"
                 android:background="@drawable/rbtn_selector"
@@ -50,7 +50,7 @@
             android:text="@string/weight" />
         <EditText
             android:inputType="numberDecimal"
-            android:id="@+id/weightInput"
+            android:id="@+id/weight_edit"
             android:layout_toRightOf="@id/weightLabel"
             android:layout_alignBaseline="@id/weightLabel"
             android:layout_marginLeft="@dimen/marginBetweenLabelAndInput"
@@ -67,7 +67,7 @@
             android:text="@string/height"/>
         <EditText
             android:inputType="numberDecimal"
-            android:id="@+id/heightInput"
+            android:id="@+id/height_edit"
             android:layout_below="@id/weightLabel"
             android:layout_marginLeft="@dimen/marginBetweenLabelAndInput"
             android:layout_alignBaseline="@id/heightLabel"
@@ -75,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
-            android:id="@+id/btnCount"
+            android:id="@+id/count_btn"
             android:layout_below="@id/heightLabel"
             android:padding="@dimen/countBmiBtnPadding"
             android:textSize="@dimen/labelSize"
@@ -85,8 +85,8 @@
             android:text="@string/count_bmi"/>
 
         <TextView
-            android:layout_below="@id/btnCount"
-            android:id="@+id/bmiResult"
+            android:layout_below="@id/count_btn"
+            android:id="@+id/bmi_result_view"
             android:layout_marginTop="@dimen/marginBetweenLabels"
             android:text="@string/bmi"
             android:textSize="@dimen/bmiLabel"
@@ -95,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
-            android:layout_below="@id/bmiResult"
+            android:layout_below="@id/bmi_result_view"
             android:layout_marginTop="@dimen/marginBetweenLabels"
             android:textSize="@dimen/bmiResult"
             android:textStyle="bold"
@@ -103,8 +103,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
-            android:id="@+id/bmiGroup"
-            android:layout_below="@id/bmiResult"
+            android:id="@+id/bmi_description_view"
+            android:layout_below="@id/bmi_result_view"
             android:layout_marginTop="@dimen/marginBetweenLabels"
             android:textSize="@dimen/bmiGroup"
             android:textStyle="bold"
