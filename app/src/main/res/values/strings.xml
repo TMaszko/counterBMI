@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BMI Calculator v1.0</string>
+    <string name="app_name">BMI Calculator</string>
     <string name="weight">Weight: </string>
     <string name="height">Height:</string>
     <string name="count_bmi">COUNT BMI</string>
