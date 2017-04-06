@@ -17,4 +17,5 @@
 
     <string name="shared_message">My BMI is %1$.2f</string>
     <string name="shared_subject">BMI</string>
+    <string name="about_author_text">Tomasz Krzyzowski z Ozimka</string>
 </resources>
