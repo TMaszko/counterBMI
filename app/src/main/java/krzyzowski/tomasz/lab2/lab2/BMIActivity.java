@@ -34,8 +34,8 @@ import krzyzowski.tomasz.lab2.lab2.repo.temp.TempRepo;
 
 public class BMIActivity extends AppCompatActivity implements BMIContract.View {
 
-    private static final String PREF_TEMP = "kzyzu.nie.lubi.ryzu.PREF";
-    private static final String PREF_CACHED = "maly.mis.nie.spi.dzis.CHACHED";
+    private static final String PREF_TEMP = "lab2.lab2.krzyzowski.tomasz.PREF";
+    private static final String PREF_CACHED = "lab2.lab2.krzyzowski.tomasz.CHACHED";
 
     @BindView(R.id.bmi_result_view)
     TextView resultView;
