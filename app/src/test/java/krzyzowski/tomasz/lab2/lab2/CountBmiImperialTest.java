@@ -2,8 +2,8 @@ package krzyzowski.tomasz.lab2.lab2;
 
 import org.junit.Test;
 
-import krzyzowski.tomasz.lab2.lab2.CounterBMI.CountBMI;
-import krzyzowski.tomasz.lab2.lab2.CounterBMI.CountBmiImperial;
+import krzyzowski.tomasz.lab2.lab2.bmi.BMICalculator;
+import krzyzowski.tomasz.lab2.lab2.bmi.BMICalculatorImperial;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -15,7 +15,7 @@ import static org.junit.Assert.assertTrue;
 
 public class CountBmiImperialTest {
 
-    private CountBMI counterBMI = new CountBmiImperial();
+    private BMICalculator counterBMI = new BMICalculatorImperial();
 
     @Test
     public void weight_positive_number_is_invalid() {

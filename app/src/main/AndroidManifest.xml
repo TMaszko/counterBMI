@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CalcBMIActivity" android:configChanges="orientation|screenSize">
+        <activity android:name=".BMIActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AboutAuthorActivity"
-                  android:parentActivityName=".CalcBMIActivity">
+                  android:parentActivityName=".BMIActivity">
         </activity>
     </application>
 

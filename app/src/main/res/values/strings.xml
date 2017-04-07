@@ -4,18 +4,22 @@
     <string name="height">Height:</string>
     <string name="count_bmi">COUNT BMI</string>
     <string name="bmi">BMI:</string>
+    <string name="bmi_result">BMI: %.2f</string>
 
     <string name="description_underweight">Niedowaga :(</string>
     <string name="description_normal_weight">W normie :)</string>
     <string name="description_overweight">Nadwaga :(</string>
     <string name="description_obese_weight">Otylosc !! :(</string>
+
     <string name="error_weight">Incorrect weight: %1$.2f Should be in range %2$.2f to %3$.2f </string>
     <string name="error_height">Incorrect height: %1$.2f Should be in range %2$.2f to %3$.2f </string>
-    <string name="about_author">About author</string>
-    <string name="share">Share</string>
+
     <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="about_author">About author</string>
 
     <string name="shared_message">My BMI is %1$.2f</string>
     <string name="shared_subject">BMI</string>
+
     <string name="about_author_text">Tomasz Krzyzowski z Ozimka</string>
 </resources>

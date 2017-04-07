@@ -1,17 +1,13 @@
-package krzyzowski.tomasz.lab2.lab2.CounterBMI;
+package krzyzowski.tomasz.lab2.lab2.bmi;
 
 import krzyzowski.tomasz.lab2.lab2.*;
 
-/**
- * Created by tkrzy on 27.03.2017.
- */
-
-public abstract class CountBMI {
+public abstract class BMICalculator {
 
 	private Range weightRange;
 	private Range heightRange;
 
-	public CountBMI(Range weightRange, Range heightRange) {
+	public BMICalculator(Range weightRange, Range heightRange) {
 		this.weightRange = weightRange;
 		this.heightRange = heightRange;
 	}

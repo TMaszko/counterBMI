@@ -1,12 +1,7 @@
 package krzyzowski.tomasz.lab2.lab2;
 
-import android.os.*;
-import android.support.annotation.*;
-import android.support.v7.app.*;
-
-/**
- * Created by tkrzy on 05.04.2017.
- */
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class AboutAuthorActivity extends AppCompatActivity {
 

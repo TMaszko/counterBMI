@@ -9,10 +9,10 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="@dimen/labelSize"
-        tools:context="krzyzowski.tomasz.lab2.lab2.CalcBMIActivity">
+        tools:context="krzyzowski.tomasz.lab2.lab2.BMIActivity">
 
         <RadioGroup
-            android:id="@+id/unitSwitcher"
+            android:id="@+id/unitsGroup"
             android:layout_width="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
@@ -42,7 +42,7 @@
                 android:textSize="@dimen/radioBtnTextSize"/>
         </RadioGroup>
         <TextView
-            android:layout_below="@id/unitSwitcher"
+            android:layout_below="@id/unitsGroup"
             android:id="@+id/weightLabel"
             android:textSize="@dimen/labelSize"
             android:layout_width="@dimen/labelWidth"

@@ -2,8 +2,8 @@ package krzyzowski.tomasz.lab2.lab2;
 
 import org.junit.Test;
 
-import krzyzowski.tomasz.lab2.lab2.CounterBMI.CountBMI;
-import krzyzowski.tomasz.lab2.lab2.CounterBMI.CountBmiMetrical;
+import krzyzowski.tomasz.lab2.lab2.bmi.BMICalculator;
+import krzyzowski.tomasz.lab2.lab2.bmi.BMICalculatorMetrical;
 
 import static org.junit.Assert.*;
 
@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 public class CountBmiMetricalTest {
 
-    private CountBMI counterBMI = new CountBmiMetrical();
+    private BMICalculator counterBMI = new BMICalculatorMetrical();
 
     @Test
     public void weight_positive_number_is_invalid() {
